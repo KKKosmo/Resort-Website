@@ -1,4 +1,6 @@
 import './App.css';
+import './css/fonts.css';
+import './css/hotely.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Content from './components/Content';
@@ -10,7 +12,7 @@ function App() {
       <main>
         <Content />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

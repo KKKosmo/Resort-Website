@@ -261,7 +261,9 @@
 
 
 
-
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
 
 
 
@@ -3973,4 +3975,17 @@ a.continue:focus {
 .has-black-background-color:hover:before,
 .has-black-background-color:hover:after {
   width: 50%;
+}
+
+
+
+.footer_section .copy_right {
+  padding-top: 25px;
+  padding-right: 0px;
+  padding-bottom: 25px;
+  padding-left: 0px;
+}
+
+.topImage{
+    background: rgba(0, 0, 0, 0.5);
 }

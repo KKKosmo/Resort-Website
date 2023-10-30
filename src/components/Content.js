@@ -1,7 +1,9 @@
-function Content(){
-    return(
+import TopImage from './content/TopImage';
+
+function Content() {
+    return (
         <div>
-            test
+            <TopImage />
         </div>
     )
 }
