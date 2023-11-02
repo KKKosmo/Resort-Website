@@ -6,7 +6,7 @@ function Header() {
                 <div className="row">
                     <div className="col-lg-6 col-sm-6 col-12">
                         <ul className="header-social">
-                            <li className="facebook"><a href=""><i className="fa fa-facebook"></i></a></li>
+                           <li className="facebook"><a href="https://www.facebook.com/JGtransienthome" target="_blank"><i className="fa fa-facebook"></i></a></li>
                         </ul>
                     </div>
                     <div className="col-lg-6 col-sm-6 col-12">

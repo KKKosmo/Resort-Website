@@ -1,5 +1,6 @@
 import people7 from '../../images/people7.jpg';
 import roomRed from '../../images/roomRed.jpg';
+import user from '../../images/user.webp';
 
 export default function Testimonials() {
     return (
@@ -16,20 +17,20 @@ export default function Testimonials() {
                     </div>
                     <div className="row">
                         <div className="col-md-12">
-                            <div id="testimonial_slider" className="owl-carousel owl-theme" data-collg="3" data-colmd="2" data-colsm="2" data-colxs="1" data-itemspace="30" data-loop="true" data-autoplay="true" data-smartspeed="800" data-nav="true" data-dots="true">
-                                <div className="testimonial item">
-                                    <div>
-                                        <div className="testi-image">
-                                            <img className="animated zoomIn" src={people7} alt="Jona" />
-                                        </div>
-                                        <div className="testimonial_content">
-                                            <p className="testimonial_desc animated zoomIn">" Budget-friendly and malinis po. "</p>
-                                            <h4 className="testimonial_title animated zoomIn">Jona</h4>
-                                            <span className="testimonial_designation animated zoomIn">Guest</span>
-                                        </div>
+
+                        <div className="testimonial item">
+                                <div>
+                                    <div className="testi-image">
+                                        <img className="animated zoomIn" src={user} alt="Jona" />
+                                    </div>
+                                    <div className="testimonial_content">
+                                        <p className="testimonial_desc animated zoomIn">" Budget-friendly and malinis po. "</p>
+                                        <h4 className="testimonial_title animated zoomIn">Jona</h4>
+                                        <span className="testimonial_designation animated zoomIn">Guest</span>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
