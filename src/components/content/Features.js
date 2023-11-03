@@ -20,9 +20,7 @@ export default function Features() {
           <div className="col-sm-6 col-lg-3 service-type-icon">
             <div className="card-service">
               <div className="service-icon text-center fa-5x">
-                <a href="" target="_blank">
                   <i className="fa fa-car"></i>
-                </a>
               </div>
 
               <div className="service-content text-center">
@@ -36,9 +34,7 @@ export default function Features() {
           <div className="col-sm-6 col-lg-3 service-type-icon">
             <div className="card-service">
               <div className="service-icon text-center fa-5x">
-                <a href="" target="_blank">
                   <i className="fa fa-wifi"></i>
-                </a>
               </div>
 
               <div className="service-content text-center">

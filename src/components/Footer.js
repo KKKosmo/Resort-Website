@@ -5,7 +5,7 @@ export default function Footer(){
             <div className="container">
                 <div className="row">
                     <div className="col-md-8 col-sm-8 col-7 m-auto text-center">
-                        <p className="wow animated fadeInUp">j&amp;g w3ooo</p>
+                        <p className="wow animated fadeInUp">© 2023 J&amp;G Homes Transient</p>
                     </div>
                 </div>
             </div>

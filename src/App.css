@@ -1550,10 +1550,10 @@ input[type="search"].search-field {
   transition: .6s;
 }
 
-.card-room:hover {
+/* .card-room:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 30px var(--border-color);
-}
+} */
 
 .room_thumbnial {
   position: relative;
@@ -1575,10 +1575,6 @@ input[type="search"].search-field {
   margin-bottom: 15px;
 }
 
-.card-room .room-content .room_title:hover,
-.card-room .room-content .room_title:focus {
-  color: var(--primary-color);
-}
 
 .card-room .room-content .service_desc {
   font-size: 16px;
@@ -1613,9 +1609,9 @@ input[type="search"].search-field {
   transition: .2s ease;
 }
 
-.card-room:hover .room_overlay {
+/* .card-room:hover .room_overlay {
   transform: scale(1);
-}
+} */
 
 .card-room .room_overlay_inner {
   width: 100%;
