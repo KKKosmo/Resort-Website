@@ -1,5 +1,8 @@
 import roomG from '../../images/roomG.jpg';
-import roomJ from '../../images/roomJ.jpg';
+import roomJ from '../../images/roomJraw.jpg';
+import attic from '../../images/attic.jpg';
+import kubo from '../../images/roomIDK.jpg';
+import roomF from '../../images/roomF.jpg';
 
 export default function Rooms() {
     return (
@@ -40,7 +43,7 @@ export default function Rooms() {
                     }}>
                         <div className="card-room">
                             <div className="room_thumbnial">
-                                <img src={roomG} className="attachment-full size-full wp-post-image" alt="" loading="lazy" />
+                                <img src={roomJ} className="attachment-full size-full wp-post-image" alt="" loading="lazy" style={{height: "80%"}}/>
                                 <div className="room_overlay">
                                     <div className="room_overlay_inner"></div>
                                 </div>
@@ -53,7 +56,7 @@ export default function Rooms() {
                                     <i className="fa fa-star star_yellow"></i>
                                     <i className="fa fa-star star_yellow"></i>
                                 </div>
-                                <h4 className="room_title">Room G</h4>
+                                <h4 className="room_title">Room J</h4>
                                 <div className="room_desc">
                                     <p>Description X PAX</p>
                                 </div>
@@ -67,7 +70,7 @@ export default function Rooms() {
                     }}>
                         <div className="card-room">
                             <div className="room_thumbnial">
-                                <img src={roomG} className="attachment-full size-full wp-post-image" alt="" loading="lazy" />
+                                <img src={roomG} className="attachment-full size-full wp-post-image" alt="" loading="lazy" style={{height: "80%"}}/>
                                 <div className="room_overlay">
                                     <div className="room_overlay_inner"></div>
                                 </div>
@@ -94,7 +97,7 @@ export default function Rooms() {
                     }}>
                         <div className="card-room">
                             <div className="room_thumbnial">
-                                <img src={roomG} className="attachment-full size-full wp-post-image" alt="" loading="lazy" />
+                                <img src={attic} className="attachment-full size-full wp-post-image" alt="" loading="lazy" style={{height: "80%"}}/>
                                 <div className="room_overlay">
                                     <div className="room_overlay_inner"></div>
                                 </div>
@@ -107,7 +110,7 @@ export default function Rooms() {
                                     <i className="fa fa-star star_yellow"></i>
                                     <i className="fa fa-star star_yellow"></i>
                                 </div>
-                                <h4 className="room_title">Room G</h4>
+                                <h4 className="room_title">Attic</h4>
                                 <div className="room_desc">
                                     <p>X PAX</p>
                                 </div>
@@ -121,7 +124,7 @@ export default function Rooms() {
                     }}>
                         <div className="card-room">
                             <div className="room_thumbnial">
-                                <img src={roomG} className="attachment-full size-full wp-post-image" alt="" loading="lazy" />
+                                <img src={kubo} className="attachment-full size-full wp-post-image" alt="" loading="lazy" style={{height: "80%"}}/>
                                 <div className="room_overlay">
                                     <div className="room_overlay_inner"></div>
                                 </div>
@@ -134,7 +137,7 @@ export default function Rooms() {
                                     <i className="fa fa-star star_yellow"></i>
                                     <i className="fa fa-star star_yellow"></i>
                                 </div>
-                                <h4 className="room_title">Room G</h4>
+                                <h4 className="room_title">Kubo 1/2</h4>
                                 <div className="room_desc">
                                     <p>X PAX</p>
                                 </div>
@@ -148,7 +151,7 @@ export default function Rooms() {
                     }}>
                         <div className="card-room">
                             <div className="room_thumbnial">
-                                <img src={roomG} className="attachment-full size-full wp-post-image" alt="" loading="lazy" />
+                                <img src={roomF} className="attachment-full size-full wp-post-image" alt="" loading="lazy" style={{height: "80%"}}/>
                                 <div className="room_overlay">
                                     <div className="room_overlay_inner"></div>
                                 </div>
@@ -161,7 +164,7 @@ export default function Rooms() {
                                     <i className="fa fa-star star_yellow"></i>
                                     <i className="fa fa-star star_yellow"></i>
                                 </div>
-                                <h4 className="room_title">Room G</h4>
+                                <h4 className="room_title">Room F</h4>
                                 <div className="room_desc">
                                     <p>X PAX</p>
                                 </div>

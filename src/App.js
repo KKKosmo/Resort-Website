@@ -4,6 +4,7 @@ import './css/animate.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Content from './components/Content';
+import Sroll from './components/Scroll';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Content />
       </main>
       <Footer />
+      <Sroll />
     </div>
   );
 }

@@ -1,11 +1,12 @@
 import people7 from '../../images/people7.jpg';
 import roomRed from '../../images/roomRed.jpg';
 import user from '../../images/user.webp';
+import outside2 from '../../images/outside2.jpg';
 
 export default function Testimonials() {
     return (
 
-        <div id="testimonial" className="testimonial_section section section-overlay" style={{ backgroundImage: `url(${roomRed})` }}>
+        <div id="testimonial" className="testimonial_section section section-overlay" style={{ backgroundImage: `url(${outside2})` }}>
             <div className="sectionOverlay">
                 <div className="container">
                     <div className="row">

@@ -1,26 +1,19 @@
 import React, { useEffect } from 'react';
-import $ from 'jquery'; // Import jQuery
-import 'owl.carousel'; // Import Owl Carousel
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.min.css';
+import 'owl.carousel/dist/assets/owl.theme.default.min.css';
+
+
+
+import outside2 from '../../images/outside2.jpg';
 import roomRed from '../../images/roomRed.jpg';
 import people7 from '../../images/people7.jpg';
 import user from '../../images/user.webp';
 
 export default function People() {
-  useEffect(() => {
-    // Initialize Owl Carousel after the component mounts
-    $('.gallery.owl-carousel').owlCarousel({
-      items: 3,
-      nav: true,
-      rewind: true,
-    });
-  }, []);
-
-  const images = [people7, user];
 
   return (
-    <div id="testimonial" className="testimonial_section section section-overlay" style={{ backgroundImage: `url(${roomRed})` }}>
+    <div id="testimonial" className="testimonial_section section section-overlay" style={{ backgroundImage: `url(${outside2})` }}>
       <div className="sectionOverlay">
         <div className="container">
           <div className="row">
@@ -30,13 +23,33 @@ export default function People() {
               <p className="section-desc wow animated fadeInUp">Our customers' captured moments</p>
             </div>
           </div>
-          <div className="gallery owl-carousel">
-            {images.map((image, index) => (
-              <div className="item" key={index}>
-                <img src={image} alt={`Image ${index + 1}`} />
-              </div>
-            ))}
-          </div>
+
+          <OwlCarousel
+            className='owl-theme'
+            items={2}
+            autoplay
+            nav
+            dots
+            loop
+            margin={10}
+            dotClass='owl-dott'
+            dotsClass='owl-dotts'
+          >
+            <div className='item'>
+              <img src={people7}/>
+            </div>
+            <div className='item'>
+              <img src={roomRed}/>
+            </div>
+            <div className='item'>
+              <img src={people7}/>
+            </div>
+            <div className='item'>
+              <img src={roomRed}/>
+            </div>
+          </OwlCarousel>
+
+
         </div>
       </div>
     </div>
