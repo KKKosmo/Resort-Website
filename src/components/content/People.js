@@ -18,6 +18,20 @@ import people9 from '../../images/people9.jpg';
 import people10 from '../../images/people10.jpg';
 
 
+
+  // const responsiveOptions = {
+  //   0: {
+  //     items: 1,
+  //   },
+  //   768: {
+  //     items: 2,
+  //   },
+  //   992: {
+  //     items: 4,
+  //   },
+  // };
+
+
 export default function People() {
 
   return (
@@ -32,48 +46,51 @@ export default function People() {
             </div>
           </div>
 
-          <OwlCarousel
-            className='owl-theme'
-            items={4}
-            autoplay
-            nav
-            dots
-            loop
-            margin={10}
-            dotClass='owl-dott'
-            dotsClass='owl-dotts'
-          >
-            <div className='item'>
-              <img src={people3}/>
-            </div>
-            <div className='item'>
-              <img src={people4}/>
-            </div>
-            <div className='item'>
-              <img src={people5}/>
-            </div>
-          <div className='item'>
-            <img src={people1}/>
+          <div className='wow fadeInUp animated'>
+            <OwlCarousel
+              className='owl-theme'
+              items={4}
+              autoplay
+              nav
+              dots
+              loop
+              margin={10}
+              dotClass='owl-dott'
+              dotsClass='owl-dotts'
+              // responsive={responsiveOptions}
+            >
+              <div className='item'>
+                <img src={people3} />
+              </div>
+              <div className='item'>
+                <img src={people4} />
+              </div>
+              <div className='item'>
+                <img src={people5} />
+              </div>
+              <div className='item'>
+                <img src={people1} />
+              </div>
+              <div className='item'>
+                <img src={people2} />
+              </div>
+              <div className='item'>
+                <img src={people6} />
+              </div>
+              <div className='item'>
+                <img src={people7} />
+              </div>
+              <div className='item'>
+                <img src={people8} />
+              </div>
+              <div className='item'>
+                <img src={people9} />
+              </div>
+              <div className='item'>
+                <img src={people10} />
+              </div>
+            </OwlCarousel>
           </div>
-            <div className='item'>
-              <img src={people2}/>
-            </div>
-            <div className='item'>
-              <img src={people6}/>
-            </div>
-            <div className='item'>
-              <img src={people7}/>
-            </div>
-            <div className='item'>
-              <img src={people8}/>
-            </div>
-            <div className='item'>
-              <img src={people9}/>
-            </div>
-            <div className='item'>
-              <img src={people10}/>
-            </div>
-          </OwlCarousel>
 
 
         </div>

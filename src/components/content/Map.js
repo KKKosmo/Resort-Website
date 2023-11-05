@@ -11,8 +11,8 @@ export default function Map() {
 
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15287.894504534606!2d120.3272570451938!3d16.678203170249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33918ded10f4b7e5%3A0x99bc42361d3a56fa!2sJ%20%26%20G%20Homes!5e0!3m2!1sen!2sph!4v1698932094768!5m2!1sen!2sph"
-                            width="900"
-                            height="450"
+                            width="100%"
+                            height="100%"
                             style={{ border: 0 }}
                             allowFullScreen=""
                             loading="lazy"
